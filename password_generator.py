@@ -8,8 +8,7 @@ alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1#$%&*
 with open("passwords.txt", "r") as f:
     for line in f:
         for s in symbols:
-            for z in symbols:
-                added_symbols.append("".join(line.strip() + str(s) + str(z)))
+            added_symbols.append("".join(line.strip() + str(s)))
 
 # leet speech
 with open("passwords.txt", "r") as f:
