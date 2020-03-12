@@ -1,5 +1,13 @@
-CRACKER
-=======
+P455W0RD CR4CKER
+================
+Authors: Team !!!11one:
+Kim Cosmo Ström, kcs1@hi.is
+Irma Leinerte, irl3@hi.is
+
+In password_generator.py we generate 3 types of passwords - the most popular passwords with a symbol added as a suffix (for example, fear%), the most popular passwords in leet speak (like, ru5h) and random passwords from an alphabet of 69 symbols in lengths 4-6 and 8-12.
+The rainbow tables for both salted and unsalted passwords are generated in rainbow.py. 
+The cracking itself is done in crack.py where we call to generate the rainbow tables for the unsalted passwords and then go through the salted passwords, creating more rainbow tables.
+To run and test use the examples in test.sh.
 
 crack.py		Brýtur lykilorð
 hash.py			Býr til lykilorðaskrá
