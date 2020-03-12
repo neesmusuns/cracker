@@ -4,25 +4,10 @@ Authors: Team !!!11one:
 Kim Cosmo Ström, kcs1@hi.is
 Irma Leinerte, irl3@hi.is
 
+The project is written in Python3 and is run with the lines provided in test.sh. There is no need to run anything before.
+
 In password_generator.py we generate 3 types of passwords - the most popular passwords with a symbol added as a suffix (for example, fear%), the most popular passwords in leet speak (like, ru5h) and random passwords from an alphabet of 69 symbols in lengths 4-6 and 8-12.
 The rainbow tables for both salted and unsalted passwords are generated in rainbow.py. 
 The cracking itself is done in crack.py where we call to generate the rainbow tables for the unsalted passwords and then go through the salted passwords, creating more rainbow tables.
+
 To run and test use the examples in test.sh.
-
-crack.py		Brýtur lykilorð
-hash.py			Býr til lykilorðaskrá
-rainbow.py		Býr til regnbogatöflu
-
-lib/hashfn.py		Hash library
-
-test.sh			Skeljaskript sem prófar afkóðun
-
-users.md5		Lykilorðaskrár án salts
-users.sha1
-users.sha256
-
-users_salted.md5	Lykilorðaskrár með salti
-users_salted.sha1
-users_salted.sha256
-
-passwords.txt		Listi af þekktum lykilorðum
