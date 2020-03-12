@@ -6,7 +6,7 @@ Irma Leinerte, irl3@hi.is
 
 The project is written in Python3 and is run with the lines provided in test.sh. There is no need to run anything before.
 
-In password_generator.py we generate 3 types of passwords - the most popular passwords with a symbol added as a suffix (for example, fear%), the most popular passwords in leet speak (like, ru5h) and random passwords from an alphabet of 69 symbols in lengths 4-6 and 8-12.
+In password_generator.py we generate 3 types of passwords - the most popular passwords with a symbol added as a suffix (for example, fear%), the most popular passwords in leet speak (like, ru5h) and random passwords from an alphabet of 69 symbols in length 4.
 The rainbow tables for both salted and unsalted passwords are generated in rainbow.py. 
 The cracking itself is done in crack.py where we call to generate the rainbow tables for the unsalted passwords and then go through the salted passwords, creating more rainbow tables.
 
